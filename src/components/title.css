@@ -14,7 +14,6 @@
 }
 
 .title__sub {
-  width: 50%;
   font-size: 30px;
   font-weight: 300;
   font-family: 'Montserrat', Helvetica, Arial, sans-serif;
@@ -39,4 +38,10 @@
   content: '/';
   margin-left: 4px;
   padding-left: 4px;
+}
+
+@media (min-width: 600px) {
+  .title__sub {
+    width: 50%;
+  }
 }
