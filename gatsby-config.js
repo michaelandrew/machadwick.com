@@ -1,8 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: `Michael Andrew Chadwick | Software Developer`,
-    description: `Michael Andrew Chadwick, London based Software Developer.`,
-    author: `@nopenotmikey`,
+    acronym: 'MC',
+    title: 'Michael Chadwick',
+    description: 'London based Software Developer with a strong focus on Javascript.',
+    author: '@nopenotmikey',
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
