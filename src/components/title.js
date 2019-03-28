@@ -12,9 +12,20 @@ const Title = ({ title, description }) => (
       {description}
     </p>
     <div class="title__contact">
-      <a href="https://github.com/michaelandrew" target="_blank">Github</a>
-      <a href="mailto:michael.andrew.chadwick@gmail.com">Email</a>
-      <a href="https://s3.eu-west-2.amazonaws.com/static.machadwick.com/Michael+Chadwick.pdf" target="_blank">CV</a>
+      <a href="https://github.com/michaelandrew"
+         rel="noopener noreferrer" 
+         target="_blank">
+        Github
+      </a>
+      <a href="mailto:michael.andrew.chadwick@gmail.com"
+         rel="noopener noreferrer">
+        Email
+      </a>
+      <a href="https://s3.eu-west-2.amazonaws.com/static.machadwick.com/Michael+Chadwick.pdf" 
+         rel="noopener noreferrer" 
+         target="_blank">
+        CV
+      </a>
     </div>
   </div>
 )
