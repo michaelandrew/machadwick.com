@@ -1,10 +1,9 @@
 module.exports = {
   siteMetadata: {
-    'acronym': 'MC',
-    'title': 'Michael Chadwick',
-    'description': 'London based Software Developer with a strong focus on Javascript.',
-    'author': '@nopenotmikey',
-    'google-site-verification': 'F9RR4rkgwbTT9gGhAAk7dAUuWcueYtUiTa6NW4SkyzM'
+    acronym: 'MC',
+    title: 'Michael Chadwick',
+    description: 'London based Software Developer with a strong focus on Javascript.',
+    author: '@nopenotmikey'
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
