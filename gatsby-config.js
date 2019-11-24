@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     acronym: 'MC',
     title: 'Michael Chadwick',
-    description: 'London based Software Developer with a strong focus on Javascript.',
+    description: 'London based Software & UI Developer.',
     author: '@nopenotmikey'
   },
   plugins: [

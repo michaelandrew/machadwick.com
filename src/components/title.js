@@ -21,7 +21,7 @@ const Title = ({ title, description }) => (
          rel="noopener noreferrer">
         Email
       </a>
-      <a href="https://s3.eu-west-2.amazonaws.com/static.machadwick.com/Michael+Chadwick.pdf" 
+      <a href="https://s3.eu-west-2.amazonaws.com/static.machadwick.com/Michael+Chadwick+(Online+Version).pdf" 
          rel="noopener noreferrer" 
          target="_blank">
         CV
