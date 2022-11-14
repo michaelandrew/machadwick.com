@@ -26,10 +26,10 @@ const Title = ({ title, description }: TitleProps) => (
       }
 
       .title__sub {
+        margin: 0;
         font-size: 30px;
         max-width: 600px;
         font-weight: 300;
-        margin-top: 24px;
       }
 
       .title__contact {
