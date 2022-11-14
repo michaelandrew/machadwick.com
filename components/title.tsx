@@ -29,6 +29,32 @@ const Title = ({ title, description }: TitleProps) => (
         font-size: 30px;
         max-width: 600px;
         font-weight: 300;
+        margin-top: 24px;
+      }
+
+      .title__contact {
+        margin-top: 48px;
+      }
+      
+      .title__contact a {
+        color: #000;
+        font-weight: 400;
+        text-decoration: none;
+      }
+
+      .title__contact a:hover {
+        border-bottom: 1px solid #000;
+      }
+      
+      .title__contact a:not(:first-child) {
+        margin-left: 4px;
+        padding-left: 4px;
+      }
+      
+      .title__contact a:not(:last-child)::after {
+        content: '/';
+        margin-left: 4px;
+        padding-left: 4px;
       }
     `}</style>
     <div className="title">
@@ -38,6 +64,13 @@ const Title = ({ title, description }: TitleProps) => (
       <p className="title__sub">
         {description}
       </p>
+      <div className="title__contact">
+        <a href="https://github.com/michaelandrew"
+          rel="noopener noreferrer" 
+          target="_blank">
+          Github
+        </a>
+      </div>
     </div>
   </>
 )
