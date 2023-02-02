@@ -14,8 +14,8 @@ const App = () => {
     });
   }, []);
 
-  const title = "Michael Andrew Chadwick";
-  const description = "Software & UI Developer."
+  const title       = "Michael Andrew Chadwick";
+  const description = "Software & UI Developer";
 
   return (
     <>
