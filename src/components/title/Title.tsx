@@ -22,6 +22,11 @@ export const Title = ({ title, description }: TitleProps) => {
           target="_blank">
           Github
         </a>
+        <a href="https://www.linkedin.com/in/michaelandrewchadwick/"
+          rel="noopener noreferrer" 
+          target="_blank">
+          Linkedin
+        </a>
       </div>
     </div>
   )
