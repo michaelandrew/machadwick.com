@@ -1,3 +1,5 @@
+import { SpeedInsights } from "@vercel/speed-insights/react"
+
 import React, { useEffect } from 'react';
 import WebFont from 'webfontloader';
 import { Helmet } from 'react-helmet';
@@ -28,6 +30,7 @@ const App = () => {
           title={title}
           description={description} />
       </Layout>
+      <SpeedInsights />
     </>
   )
 }
